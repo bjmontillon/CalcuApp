@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="calcu.js"></script>
+  <script src="mythemes.js"></script>
+  
+</head>
+<body>
+<div class="main">
+<div name="container" class="container">
+  <div id="try" ></div>
+  <div id="calcu" name="calcu" class="calcu">
+    <div class="title">
+      <h4 id="maintitle">calc</h4>
+    </div>
+    <div id="theme" class="theme">
+      <div id="theme-selector" class="theme-selector">
+        <input id="btn1" type="button" class="theme1" style="background-color: hsl(244, 67%, 91%)">
+        <input id="btn2" type="button" class="theme2" style="background-color: hsl(25, 98%, 40%)">
+        <input id="btn3" type="button" class="theme3" style="background-color: hsl(176, 100%, 44%)">
+      </div>
+    </div>
+    
+    <div id="displayOutput" class="output-display" style="color: white;direction: rtl">
+    </div>
+    
+    
+    <div id="keys" class="keys">
+      <button data-number id="seven" class="seven" value="7">7</button>
+      <button data-number id="eight" class="eight" value="8">8</button>
+      <button data-number id="nine"class="nine" value="9">9</button>
+      <button  id="del" class="delete" value="del">DEL</button>
+      <button data-number id="four" class="four" value="4">4</button>
+      <button data-number id="five" class="five" value="5">5</button>
+      <button data-number id="six" class="six" value="6">6</button>
+      <button id="add" class="addition" data-action="add" value="+">+</button>
+      <button data-number id="one" class="one"  value="1">1</button>
+      <button data-number id="two" class="two" value="2">2</button>
+      <button data-number id="three" class="three" value="3">3</button>
+      <button id="subtract"  class="subtraction" data-action="subtract" value="-">-</button>
+      <button id="decimal" class="decimal" data-action="decimal" value=".">.</button>
+      <button data-number id="zero" class="zero" value="0">0</button>
+      <button id="divide" class="division" data-action="divide" value="/">/</button>
+      <button id="mult" class="multiply" data-action="multiply" value="*">&times</button>
+      <button id="res" class="reset" data-action="clear" value="res" style="font-size: 11px">RESET</button>
+      <button id="equal" class="equals" data-action="calculate" value="=">=</button>
+    </div>
+
+    </div>
+  </div> 
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#" target="_blank">Bee Jay Montillon</a>.
+</div>
+
+
+</body>
+</html>
